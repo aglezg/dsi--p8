@@ -1,0 +1,30 @@
+{
+  "name": "github-actions-typescript-nodejs-ci",
+  "version": "1.0.0",
+  "description": "",
+  "main": "dist/basicFunctions.js",
+  "scripts": {
+    "test": "mocha",
+    "coverage": "nyc npm test && nyc report --reporter=lcov",
+    "start": "tsc-watch --onSuccess \"node dist/basicFunctions.js\"",
+    "doc": "typedoc; touch ./docs/.nojekyll"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "@types/chai": "^4.2.15",
+    "@types/mocha": "^8.2.1",
+    "@typescript-eslint/eslint-plugin": "^4.15.2",
+    "@typescript-eslint/parser": "^4.15.2",
+    "chai": "^4.3.0",
+    "eslint": "^7.21.0",
+    "eslint-config-google": "^0.14.0",
+    "mocha": "^8.3.0",
+    "nyc": "^15.1.0",
+    "ts-node": "^9.1.1",
+    "tsc-watch": "^4.2.9",
+    "typedoc": "^0.20.28",
+    "typescript": "^4.2.3"
+  }
+}
