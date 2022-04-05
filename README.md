@@ -1,11 +1,11 @@
 # Práctica 8: Desarrollo en Sistemas Informáticos
 
 <p align="center">
-    <a href="https://github.com/ULL-ESIT-INF-DSI-2122/github-actions-typescript-nodejs-ci/actions/workflows/tests.js.yml">
-        <img alt="Tests" src="https://github.com/ULL-ESIT-INF-DSI-2122/github-actions-typescript-nodejs-ci/actions/workflows/tests.js.yml/badge.svg">
+    <a href="https://github.com/alu0101321219/dsi--p8/blob/main/.github/workflows/tests.js.yml">
+        <img alt="Tests" src="https://github.com/alu0101321219/dsi--p8/actions/workflows/tests.js.yml/badge.svg">
     </a>
-    <a href='https://coveralls.io/github/ULL-ESIT-INF-DSI-2122/github-actions-typescript-nodejs-ci?branch=main'>
-        <img src='https://coveralls.io/repos/github/ULL-ESIT-INF-DSI-2122/github-actions-typescript-nodejs-ci/badge.svg?branch=main' alt='Coverage Status' />
+    <a href='https://coveralls.io/github/alu0101321219/dsi--p8?branch=main'>
+        <img src='https://coveralls.io/repos/github/alu0101321219/dsi--p8/badge.svg?branch=main' alt='Coverage Status' />
     </a>
 </p>
 
