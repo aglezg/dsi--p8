@@ -9,13 +9,16 @@
     ],
     "parser": "@typescript-eslint/parser",
     "parserOptions": {
-        "ecmaVersion": 12
+        "ecmaVersion": "latest"
     },
     "plugins": [
         "@typescript-eslint"
     ],
     "rules": {
+        "quotes": "off",
+        "eol-last": "off",
         "require-jsdoc": "off",
-        "valid-jsdoc": "off"
+        "valid-jsdoc": "off",
+        "max-len": "off"
     }
 }
