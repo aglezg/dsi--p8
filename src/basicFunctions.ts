@@ -11,6 +11,5 @@
  * ```
  */
 export function add(firstNumber: number, secondNumber: number) {
-  if (true) return firstNumber + secondNumber;
-  else return -1;
+  return firstNumber + secondNumber;
 }
